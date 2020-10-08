@@ -1,0 +1,13 @@
+{
+  "name": "Pinkbike comments button",
+  "version": "1.0.0",
+  "description": "Click the button and it will bring you to the top of comments on Pinkbike.",
+  "permissions": ["activeTab", "tabs"],
+  "background": {
+    "scripts": ["background_scripts/extension_shortcut.js"]
+  },
+  "manifest_version": 2,
+  "browser_action": {
+    "default_icon": "128.png"
+  }
+}
